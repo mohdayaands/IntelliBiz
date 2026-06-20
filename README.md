@@ -147,21 +147,33 @@ A modern Streamlit interface provides a seamless analytics experience.
 - Report Generation
 
 
-                    Olist Dataset
-                          │
-                          ▼
-                   ETL Pipeline
-                          │
-                          ▼
-                 MySQL Data Warehouse
-                          │
-        ┌─────────────────┼─────────────────┐
-        ▼                 ▼                 ▼
-   Analytics         ML Models         AI Advisor
-        │                 │                 │
-        └─────────────────┼─────────────────┘
-                          ▼
-                Streamlit Dashboard
-                          │
-                          ▼
-   SUPER_ADMIN | COMPANY_ADMIN | EMPLOYEE
+# 🏗️ System Architecture
+
+IntelliBiz follows a modular architecture that integrates Data Engineering, Business Analytics, Machine Learning, Artificial Intelligence, and an interactive web application into a single Business Intelligence platform.
+
+```text
+                         Olist E-Commerce Dataset
+                                   │
+                                   ▼
+                         ETL Pipeline (Python)
+                 Extract → Transform → Validate → Load
+                                   │
+                                   ▼
+                        MySQL Data Warehouse
+                                   │
+        ┌──────────────────────────┼──────────────────────────┐
+        ▼                          ▼                          ▼
+ Business Analytics          Machine Learning           AI Advisor
+        │                          │                          │
+        ├── KPI Dashboard          ├── Sales Forecasting     ├── Gemini AI
+        ├── Sales Analysis         ├── Churn Prediction      ├── Recommendations
+        ├── Customer Analysis      ├── Customer Segmentation └── Business Insights
+        ├── Product Analysis       └── Demand Forecasting
+        └── Review Analysis
+                     │
+                     ▼
+             Streamlit Web Application
+                     │
+                     ▼
+     SUPER_ADMIN • COMPANY_ADMIN • EMPLOYEE
+```
