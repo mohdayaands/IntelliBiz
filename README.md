@@ -228,3 +228,217 @@ IntelliBiz implements Role-Based Access Control to ensure secure and controlled 
 | Data Upload Portal | ✅ | ✅ | ❌ |
 | Model Manager | ✅ | ❌ | ❌ |
 | ML Training Dashboard | ✅ | ❌ | ❌ |
+
+
+# 🤖 Artificial Intelligence
+
+IntelliBiz integrates **Google Gemini AI** to transform business analytics into actionable strategic recommendations.
+
+Unlike traditional dashboards that only display historical data, IntelliBiz uses Generative AI to interpret business performance and provide intelligent recommendations.
+
+### AI Business Advisor
+
+The AI Advisor analyzes business metrics such as:
+
+- Revenue
+- Profit
+- Orders
+- Profit Margin
+- Customer Trends
+- Sales Performance
+
+Using this information, Gemini AI generates:
+
+- 📈 Business Insights
+- 📊 Performance Analysis
+- 💡 Strategic Recommendations
+- ⚠ Potential Risks
+- 🚀 Growth Opportunities
+
+The AI Advisor enables decision-makers to move beyond descriptive analytics and adopt AI-assisted business planning.
+
+
+
+# 🧠 Machine Learning
+
+IntelliBiz incorporates predictive Machine Learning models to forecast business performance and customer behavior.
+
+## Implemented Models
+
+| Model | Purpose |
+|--------|---------|
+| 📈 Sales Forecasting | Predict future sales trends |
+| 👥 Customer Segmentation | Group customers based on purchasing behavior |
+| 🚪 Churn Prediction | Identify customers likely to stop purchasing |
+| 📦 Category Demand Forecasting | Estimate future product demand |
+
+These models enable businesses to make proactive decisions rather than relying solely on historical reports.
+
+
+
+
+
+# 📊 Analytics Modules
+
+IntelliBiz provides a comprehensive analytics suite for monitoring business performance.
+
+## KPI Dashboard
+
+Displays business-wide Key Performance Indicators including:
+
+- Total Revenue
+- Total Profit
+- Total Orders
+- Profit Margin
+
+---
+
+## Sales Analytics
+
+Analyze sales performance through:
+
+- Revenue Trends
+- Regional Performance
+- Top Products
+- Sales Distribution
+
+---
+
+## Customer Analytics
+
+Gain insights into customer behavior through:
+
+- Customer Segmentation
+- Geographic Distribution
+- Purchase Frequency
+- Customer Lifetime Value
+
+---
+
+## Review Analytics
+
+Understand customer satisfaction using:
+
+- Review Scores
+- Sentiment Analysis
+- Rating Distribution
+
+---
+
+## Generated Reports
+
+Generate summarized business reports for management and decision-making.
+
+
+# ⚙️ Installation Guide
+
+## Prerequisites
+
+Before running IntelliBiz, ensure the following software is installed:
+
+- Python 3.13 or later
+- MySQL Server
+- Git
+- Streamlit
+
+---
+
+## Clone the Repository
+
+```bash
+git clone https://github.com/mohdayaands/IntelliBiz.git
+
+cd IntelliBiz
+```
+
+---
+
+## Create a Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+Activate the environment:
+
+**Windows**
+
+```bash
+venv\Scripts\activate
+```
+
+**Linux / macOS**
+
+```bash
+source venv/bin/activate
+```
+
+---
+
+## Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Import the Database
+
+Import the provided SQL file into MySQL:
+
+```text
+database/IntelliBizDatabase.sql
+```
+
+---
+
+## Run the Application
+
+```bash
+streamlit run app/login.py
+```
+
+# 🔧 Configuration
+
+Create a `.env` file in the project root and add the following variables:
+
+```env
+# Google Gemini API
+GOOGLE_API_KEY=your_google_api_key
+
+# MySQL Database
+DB_HOST=localhost
+DB_PORT=3306
+DB_NAME=intellibiz_db
+DB_USER=root
+DB_PASSWORD=your_mysql_password
+```
+
+> **Note:** The `.env` file is excluded from version control using `.gitignore` to keep sensitive credentials secure.
+
+
+---
+
+# 👨‍💻 Developer
+
+**Mohd Ayaan**
+
+BCA Student  
+Jaypee Institute of Information Technology
+
+### Technologies Used
+
+- Python
+- Streamlit
+- MySQL
+- SQLAlchemy
+- Pandas
+- NumPy
+- Scikit-learn
+- Google Gemini AI
+- Git & GitHub
+
+---
+
+⭐ If you found this project interesting, consider giving it a star on GitHub!
