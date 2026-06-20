@@ -40,45 +40,6 @@ ETL • Business Analytics • Machine Learning • Artificial Intelligence
 
 ---
 
-# 📖 Overview
-
-IntelliBiz is a full-stack **Business Intelligence (BI)** platform that transforms raw business data into actionable insights through **ETL pipelines**, **interactive analytics dashboards**, **machine learning models**, and **AI-powered business recommendations**.
-
-The platform is designed to help organizations analyze performance, forecast future trends, understand customer behavior, and make data-driven decisions through an intuitive Streamlit interface.
-
-Unlike traditional dashboards, IntelliBiz combines **Business Intelligence**, **Machine Learning**, and **Generative AI** into a single integrated platform.
-
----
-
-## 🎯 Project Objectives
-
-- Build a complete ETL pipeline for business data
-- Develop a centralized MySQL Data Warehouse
-- Create interactive business dashboards
-- Generate KPI-based insights
-- Forecast future business performance using Machine Learning
-- Provide AI-powered business recommendations using Google Gemini
-- Implement secure authentication with Role-Based Access Control (RBAC)
-- Support a multi-tenant architecture for multiple organizations
-
----
-
-## 🌟 Key Highlights
-
-- 📊 Interactive Business Intelligence Dashboard
-- 📈 KPI Monitoring & Analytics
-- 🤖 AI Business Advisor (Google Gemini)
-- 🧠 Machine Learning Predictions
-- 🔐 Authentication & RBAC
-- 🏢 Multi-Tenant Ready Architecture
-- ⚡ ETL Pipeline Automation
-- 📄 Automated Business Reports
-- 📂 Modular & Scalable Project Structure
-
-
-
----
-
 # 📖 About IntelliBiz
 
 IntelliBiz is an AI-powered Business Intelligence platform developed to transform raw business data into meaningful insights through **Business Analytics, Machine Learning, and Generative AI**.
