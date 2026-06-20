@@ -145,3 +145,23 @@ A modern Streamlit interface provides a seamless analytics experience.
 - AI Recommendations
 - Predictive Insights
 - Report Generation
+
+
+                    Olist Dataset
+                          │
+                          ▼
+                   ETL Pipeline
+                          │
+                          ▼
+                 MySQL Data Warehouse
+                          │
+        ┌─────────────────┼─────────────────┐
+        ▼                 ▼                 ▼
+   Analytics         ML Models         AI Advisor
+        │                 │                 │
+        └─────────────────┼─────────────────┘
+                          ▼
+                Streamlit Dashboard
+                          │
+                          ▼
+   SUPER_ADMIN | COMPANY_ADMIN | EMPLOYEE
