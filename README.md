@@ -177,3 +177,20 @@ IntelliBiz follows a modular architecture that integrates Data Engineering, Busi
                      ▼
      SUPER_ADMIN • COMPANY_ADMIN • EMPLOYEE
 ```
+
+
+# ⚙️ Technology Stack
+
+| Category | Technologies |
+|-----------|--------------|
+| Programming Language | Python |
+| Frontend | Streamlit |
+| Database | MySQL |
+| ORM | SQLAlchemy |
+| Data Processing | Pandas, NumPy |
+| Machine Learning | Scikit-learn |
+| Artificial Intelligence | Google Gemini API |
+| Visualization | Plotly, Matplotlib |
+| Authentication | Session-based Authentication |
+| Security | Role-Based Access Control (RBAC) |
+| Version Control | Git & GitHub |
