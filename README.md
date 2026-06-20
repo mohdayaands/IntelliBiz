@@ -67,3 +67,81 @@ The primary objectives of IntelliBiz are:
 - Demonstrate an end-to-end Business Intelligence workflow.
 
 ---
+# ✨ Features
+
+## 📊 Business Analytics
+
+Transform raw business data into actionable insights through interactive dashboards and analytics.
+
+- 📈 KPI Dashboard
+- 💰 Sales Analytics
+- 👥 Customer Analytics
+- ⭐ Customer Review Analysis
+- 📦 Product Performance Analytics
+- 📊 Business Metrics Dashboard
+- 📄 Automated Business Reports
+
+---
+
+## 🤖 Artificial Intelligence
+
+Leverage Google's Gemini AI to generate intelligent business recommendations.
+
+- 🧠 AI Business Advisor
+- 💡 Strategic Business Recommendations
+- 📈 Data-Driven Decision Support
+- 📋 AI-Generated Business Reports
+
+---
+
+## 🧠 Machine Learning
+
+Predict future business trends using machine learning models.
+
+- 📉 Sales Forecasting
+- 👤 Customer Segmentation
+- 🚪 Customer Churn Prediction
+- 📦 Category Demand Forecasting
+- 📊 Predictive Analytics Dashboard
+
+---
+
+## 🔐 Authentication & Security
+
+Secure access with Role-Based Access Control (RBAC).
+
+- 🔑 User Authentication
+- 👤 Session Management
+- 🛡 Role-Based Access Control
+- 🏢 Multi-Tenant Data Isolation
+
+Supported Roles:
+
+- **SUPER_ADMIN**
+- **COMPANY_ADMIN**
+- **EMPLOYEE**
+
+---
+
+## ⚙ Data Engineering
+
+A complete ETL pipeline powers the analytics platform.
+
+- 📥 Data Extraction
+- 🔄 Data Transformation
+- ✅ Data Validation
+- 📤 Data Loading
+- 🗄 MySQL Data Warehouse
+
+---
+
+## 🎨 Interactive Dashboard
+
+A modern Streamlit interface provides a seamless analytics experience.
+
+- Responsive Dashboard
+- Interactive Charts
+- Business KPIs
+- AI Recommendations
+- Predictive Insights
+- Report Generation
