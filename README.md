@@ -179,18 +179,52 @@ IntelliBiz follows a modular architecture that integrates Data Engineering, Busi
 ```
 
 
-# ⚙️ Technology Stack
+# 🔄 ETL Workflow
 
-| Category | Technologies |
-|-----------|--------------|
-| Programming Language | Python |
-| Frontend | Streamlit |
-| Database | MySQL |
-| ORM | SQLAlchemy |
-| Data Processing | Pandas, NumPy |
-| Machine Learning | Scikit-learn |
-| Artificial Intelligence | Google Gemini API |
-| Visualization | Plotly, Matplotlib |
-| Authentication | Session-based Authentication |
-| Security | Role-Based Access Control (RBAC) |
-| Version Control | Git & GitHub |
+The ETL pipeline processes raw business data before it is stored in the centralized data warehouse.
+
+```text
+          Raw Dataset
+               │
+               ▼
+         📥 Extract
+               │
+               ▼
+       🔄 Transform
+       • Data Cleaning
+       • Feature Engineering
+       • Data Formatting
+               │
+               ▼
+        ✅ Validate
+       • Missing Values
+       • Data Integrity
+       • Schema Validation
+               │
+               ▼
+          📤 Load
+               │
+               ▼
+      MySQL Data Warehouse
+               │
+               ▼
+ Analytics • ML • AI Dashboard
+```
+
+
+# 🔐 Role-Based Access Control (RBAC)
+
+IntelliBiz implements Role-Based Access Control to ensure secure and controlled access across different user types.
+
+| Module | SUPER_ADMIN | COMPANY_ADMIN | EMPLOYEE |
+|---------|:-----------:|:-------------:|:--------:|
+| Dashboard | ✅ | ✅ | ✅ |
+| KPI Dashboard | ✅ | ✅ | ✅ |
+| Sales Analytics | ✅ | ✅ | ✅ |
+| Customer Analytics | ✅ | ✅ | ✅ |
+| AI Advisor | ✅ | ✅ | ❌ |
+| Generated Reports | ✅ | ✅ | ✅ |
+| Predictive Analytics | ✅ | ✅ | ❌ |
+| Data Upload Portal | ✅ | ✅ | ❌ |
+| Model Manager | ✅ | ❌ | ❌ |
+| ML Training Dashboard | ✅ | ❌ | ❌ |
